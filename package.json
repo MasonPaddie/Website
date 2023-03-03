@@ -1,6 +1,25 @@
 {
   "dependencies": {
     "ejs": "^3.1.8",
-    "express": "^4.18.2"
-  }
+    "express": "^4.18.2",
+    "node": "^19.6.1",
+    "nodemon": "^2.0.21"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "portfolio",
+  "description": "Personal website",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MasonPaddie/Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MasonPaddie/Website/issues"
+  },
+  "homepage": "https://github.com/MasonPaddie/Website#readme"
 }

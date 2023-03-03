@@ -7,7 +7,7 @@ app.use(express.urlencoded({extended: true}))
 
 //Index Printers
 app.get(`/`, ( req, res )=>{
-   res.send('testing123')
+   res.render('index.ejs')
 });
 
 app.listen(PORT,() => {
